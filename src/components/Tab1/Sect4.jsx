@@ -1,4 +1,3 @@
-import arrow from '../../assets/chevron-down-solid.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 export default function Sect4(props){
