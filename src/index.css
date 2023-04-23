@@ -1,13 +1,386 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: BPG Calibri;
+  src: url('./fonts/BPG\ calibri.ttf');
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  font-family: BPG Calibri;
+
+}
+
+.Popup{
+  width: 48.9%;
+  height: 97.3%;
+  background-color: #1C1D1E;
+  margin: auto auto 0 auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.Tops{
+  width: 100%;
+  aspect-ratio: 94 / 35;
+  position: relative;
+}
+
+.banner{
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+
+}
+
+.topN{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding-top: 1.71%;
+
+  aspect-ratio: 18793 / 1000;
+}
+
+.leftN{
+  position: fixed;
+  /* width: 13.7%; */
+  width: 12.8%;
+  height: 1.7vw;
+  /* width: 26.7%; */
+  /* margin-left: 2%; */
+  /* height: 68.5%; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7vw;
+  background-color: #25292B;
+  border-radius: 50px;
+  color: white;
+  left: 26.4%;
+}
+
+
+.Sl{
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0 auto 2%;
+  padding: 1.6% 4% 1.6% 3%;
+  border-radius: 50px;
+
+  background-color: rgb(68, 73, 75);
+}
+
+.S2{
+  margin: auto 5% auto 0;
+
+}
+
+
+.closeB{
+  position: fixed;
+  width: 1.7%;
+  left: 72%;
+  height: 1.7vw;
+    /* width: 3.7%; */
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  background-color: #25292B;
+  /* margin-right: 2%; */
+}
+
+
+.Xmar{
+  font-size: 0.9vw;
+  color: white;
+}
+
+.bottomP{
+  width: 100%;
+  padding: 0 4.58%;
+}
+.midTxt{
+  color: white;
+  margin: 2% 0 0 0 ;
+}
+
+.bigP{
+  font-size: 1.042vw;
+  margin-bottom: 2%;
+}
+
+.sP{
+  font-size: 0.833vw;
+}
+
+.bold{
+  font-weight: bold;
+
+}
+
+.Tabs{
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+}
+
+.bt{
+  color: white;
+  padding: 3.29% ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background-color: #2C3234;
+  height: fit-content;
+  margin: auto;
+
+}
+
+.L{
+  border-bottom-left-radius:0.8vw;
+  border-top-left-radius:0.8vw;
+}
+.R{
+  border-bottom-right-radius:0.8vw;
+  border-top-right-radius: 0.8vw;
+}
+
+.bt>span{
+  font-size: 0.521vw;;
+}
+
+.bt>span>strong{
+  font-size: 0.729vw;
+
+}
+
+.ActiveBt{
+  background-color: #EF5A21;
+  border-radius: 0.6vw;
+  padding-bottom: 3.5%;
+  padding-top: 3.5%;
+
+}
+.ActiveBt>span{
+  font-size: 0.729vw;
+}
+
+.ActiveBt>span>strong{
+  font-size:0.938vw;
+}
+.Popup{
+  overflow-y: scroll;
+}
+
+.Popup {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.Popup::-webkit-scrollbar {
+  display: none;
+}
+
+
+.Tab1{
+  margin-top: 3%;
+  width: 100%;
+}
+
+.TopH{
+  width: 100%;
+  color: white;
+  background-color: #2C3234;
+  display: flex;
+  justify-content: center;
+  border-radius: 1vw 1vw 0 0;
+  flex-direction: column;
+}
+
+.TopH > span{
+  margin: auto;
+  font-weight: bold;
+  padding: 2.8%;
+  font-size: 0.900vw;
+}
+
+
+.headl{
+  margin: auto;
+  width: 25%;
+  height: 0.25vw;
+  border-radius: 0 0 15vw 15vw;
+  background-color:#EF5A21;
+  box-shadow: 1px 2px 10px 1px #EF5A21;
+-webkit-box-shadow: 1px 2px 10px 1px #EF5A21;
+-moz-box-shadow: 1px 2px 10px 1px #EF5A21;
+}
+
+.bottomD{
+  background-color: #171718;
+  width: 100%;
+  border-left: 0.26vw solid rgb(37, 41, 43);
+  border-right: 0.26vw solid rgb(37, 41, 43);
+  color: white;
+
+}
+
+.T1S1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.T1S1>img{
+  width: 3%;
+}
+
+.lhead{
+  font-weight: bold;
+  font-size: 0.833vw;
+  margin-right: 2%;
+}
+.mainseccont{
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+
+.sect1M{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  background-color: #25292B ;
+  border-radius: 0.7vw;
+  padding-left: 4%;
+}
+
+.sect1top{
+  display: flex;
+  padding: 4% 0 3% 1%;
+  color: #7D7D7D;
+  justify-content: space-between;
+  width: 83%;
+  font-size: 0.833vw;
+  margin-right: auto;
+}
+
+.Sect1{
+  width: 96%;
+  display: flex;
+  margin: 0.4% 0;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: #1E2122;
+  border: 2px solid #2C3234;
+  border-radius: 15vw;
+  font-size: 0.729vw;
+}
+
+.def{
+  margin: auto;
+  font-size: 0.8vw;
+
+  font-weight: bold;
+}
+
+
+.bigS{
+  margin-left: 2%;
+  margin-right: 4%;
+  border-radius: 50%;
+  background-color: #2C3234;
+  padding: 1.4% 1.9%;
+  box-shadow: 0px 0px 8px 0px rgba(44,50,52,0.75);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(44,50,52,0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(44,50,52,0.75);
+}
+
+.cat{
+  margin: auto 2% auto 0 ;
+}
+
+
+.sect1bot{
+  overflow-y: scroll;
+  height: 18vw;
+  scrollbar-color: #F05A22 #2C3234;
+  scrollbar-width: thin;
+}
+
+.Sect2{
+  width: 100%;
+background-color: #1E2122;
+margin: 2% auto;
+border-radius: 0.7vw;
+display: flex;
+padding: 2% 2% 2% 0;
+font-size: 0.729vw;
+}
+
+
+
+.sect2M{
+  width: 100%;
+  margin: 3% auto 0 auto;
+  padding: 0.3% 2%;
+  background-color: #25292B ;
+  border-radius: 0.7vw;
+}
+
+.orleft{
+  height: 2vw;
+  width: 0.5%;
+  background-color: #EF5A21;
+  border-radius: 0vw 15vw 15vw 0vw;
+  box-shadow: 1px 2px 10px 1px #EF5A21;
+  -webkit-box-shadow: 1px 2px 10px 1px #EF5A21;
+  -moz-box-shadow: 1px 2px 10px 1px #EF5A21;
+}
+
+.orRight{
+  margin: 0 0 0 2%;
+  display: flex;
+  width: 100%;
+}
+
+.orRight>img{
+  width: 5%;
+  margin: auto 0 auto 0 ;
+  color: white;
+}
+
+.orSpan{
+  margin: auto 0 auto 3% ;
+  font-size: 0.8vw;
+}
+
+
+.foot{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+
+.foot>span{
+  margin: auto;
+  font-size: 0.8vw;
+}
+
+.foot>span>a{
+  color: #EF5A21;
 }
