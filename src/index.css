@@ -496,9 +496,9 @@ font-size: 0.729vw;
   z-index: 1;
   position: absolute;
   background-color: transparent;
-  /* box-shadow: 0vw -7.8vw 4vw -2vw rgb(13, 100, 155) inset;
-  -webkit-box-shadow: 0vw -7.8vw 4vw -2vw rgb(13, 100, 155) inset;
-  -moz-box-shadow: 0vw -7.8vw 4vw -2vw rgb(13, 100, 155) inset; */
+  box-shadow: 0vw -7.8vw 4vw -2vw  inset;
+  -webkit-box-shadow: 0vw -7.8vw 4vw -2vw  inset;
+  -moz-box-shadow: 0vw -7.8vw 4vw -2vw  inset;
 }
 
 
@@ -553,4 +553,247 @@ font-size: 0.729vw;
   border: none;
   border-radius: 0.2vw;
   margin: auto;
+}
+
+.signTop{
+  display: none;
+  width: 100%;
+  background-color: #1C1D1E;
+  justify-content: space-between;
+  padding: 0% 2% 0.4% 2%;
+}
+
+.logo{
+  width: 5vw;
+  height: 5vw;
+  background-color: #F05A22;
+  border-radius: 50%;
+  margin: auto 0;
+}
+
+.topbut{
+  width: fit-content;
+  display: flex;
+  width: 39%;
+}
+
+.topbut >button{
+  font-size: 3vw;
+  padding: 6% 9%;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+
+.orangB{
+  background-color: #F05A22 !important;
+  border-radius: 2vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .Popup{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-top-left-radius: 0;
+border-top-right-radius: 0;
+
+  }
+  .topN{
+    position: relative;
+  }
+  .topN>button{
+    display: none;
+  }
+  .banner{
+    position: relative;
+    border-top-left-radius: 0;
+border-top-right-radius: 0;
+  }
+  .leftN{
+    position: relative;
+    width: 52.8%;
+    height: fit-content;
+    font-size: 3vw;
+    background-color: transparent;
+    left: 0;
+    margin-left: 4%;
+  }
+
+  .Sl{
+    background-color: #25292B;
+    padding: 1.6% 5% 1.6% 4%;
+  }
+
+  .S2{
+    font-weight: normal;
+  }
+  .bigP{
+    font-size: 4.042vw;
+  }
+  .sP{
+    font-size: 2.99vw;
+  }
+
+  .ActiveBt{
+    border-radius: 1.6vw;
+    padding-bottom: 6.5%;
+    padding-top: 5.5%;
+  }
+
+  .bt{
+    padding: 5.29%;
+  }
+  .bt > span >strong{
+    font-size: 2.4vw;
+  }
+  .bt > span{
+    font-size: 1.9vw;
+  }
+  .ActiveBt > span> strong{
+    font-size: 2.99vw;
+  }
+
+  .ActiveBt >span{
+    font-size: 2.99vw;
+  }
+  .headl{
+    height: 1.2vw;
+    width: 31%;
+  }
+
+  .TopH{
+    border-radius: 3vw 3vw 0vw 0;
+  }
+
+  .TopH > span{
+    font-size: 3.9vw;
+    padding: 4.8%;
+  }
+  .bottomD{
+    border: none;
+    background-color: #25292B;
+  border-radius: 0 0 3vw 3vw;
+
+  }
+
+  .lhead{
+    font-size: 3.4vw;
+  }
+
+  .T1S1 > img{
+    width: 5%;
+  }
+  .Sect1{
+    font-size: 2.729vw;
+  }
+  .sect1top{
+    font-size: 2.833vw;
+  }
+  .bigS{
+    padding: 1.4% 2.9%;
+  }
+
+  .def{
+    font-size: 2.8vw;
+  }
+
+  .sect1bot{
+    height: 41vw;
+  }
+  .orSpan{
+    font-size: 2.8vw;
+  }
+  .orRight > img{
+    width: 10%;
+  }
+
+  .orleft{
+    height: 5vw;
+    width: 1.4%;
+  }
+
+  .Sect2{
+    background-color: #2C3234;
+  }
+
+  .orRight{
+    margin: 0 0 0 4%;
+  }
+  .foot{
+    padding: 2% 0 5% 0;
+  }
+  .foot > span{
+    font-size: 2.8vw;
+  }
+  .TwoTxt{
+    font-size: 3.95vw;
+    padding-bottom: 3%;
+  }
+
+  .textTwo{
+    width: 85%;
+  }
+
+  .OneTxt{
+    font-size: 2.8vw;
+  }
+
+  .bottomTwo{
+    border-radius: 3.7vw;
+  }
+
+  .HeadTL{
+    font-size: 4vw;
+  }
+
+  .sect4txt{
+    color: #BBBBBB;
+    font-size: 2.8vw;
+  }
+  .arrw{
+    font-size: 4.3vw;
+  }
+
+  .conBn{
+    width: 36%;
+
+  }
+
+  .sectBtTxt{
+    text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 2.5vw;
+  }
+
+  .blurEf{
+    box-shadow: 0vw -10.8vw 6vw 3vw inset;
+-webkit-box-shadow: 0vw -10.8vw 6vw 3vw inset;
+-moz-box-shadow: 0vw -10.8vw 6vw 3vw inset;
+  }
+  .fixedbT{
+    width: 100%;
+    left: 0;
+    border-top: 0.7vw solid #F05A22;
+    padding: 2% 0;
+  }
+
+  .btnLower{
+    padding: 0.8% 7.4%;
+font-size: 2.833vw;
+border-radius: 1vw;
+  }
+
+  .bnrinf{
+    padding-bottom: 40%;
+  }
+
+  .signTop{
+    display: flex;
+
+  }
+
 }
