@@ -19,9 +19,7 @@ export default function Popup(){
                 {Tabn === 1 ? <Tab1/> : Tabn === 2 ? <Tab2/> : Tabn === 3 ? <Tab3/> : "error" }
             </div>
 
-            <div className="fixedbT">
-                <button className="btnLower">ითამაშე</button>
-            </div>
+
         </div>
     )
 }

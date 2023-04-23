@@ -19,6 +19,7 @@
 }
 
 .Popup{
+  position: relative;
   width: 48.9%;
   height: 97.3%;
   background-color: #1C1D1E;
@@ -520,4 +521,36 @@ font-size: 0.729vw;
 .conBn{
   width: 25%;
   margin: 0 0.5%;
+}
+
+
+
+.fixedbT{
+  z-index: 3;
+  position: fixed;
+  bottom: 0;
+  padding: 1% 0;
+  left: 25.55%;
+  width: 48.9%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+ /* width: 49%; */
+  /* padding: 1% 2%; */
+/* display: flex; */
+    /* position: absolute; */
+    /* top: 95.7%; */
+    background-color: #171718;
+    border-top: 0.2vw solid #F05A22;
+}
+
+.btnLower{
+  padding: 0.8% 4.4%;
+  font-size: 0.833vw;
+  background-color: #F05A22;
+  color: white;
+  border: none;
+  border-radius: 0.2vw;
+  margin: auto;
 }
