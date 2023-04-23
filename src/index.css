@@ -234,7 +234,10 @@
   width: 100%;
   border-left: 0.26vw solid rgb(37, 41, 43);
   border-right: 0.26vw solid rgb(37, 41, 43);
+  border-bottom: 0.26vw solid rgb(37, 41, 43);
   color: white;
+  border-radius:0 0 1vw 1vw;
+
 
 }
 
@@ -383,4 +386,75 @@ font-size: 0.729vw;
 
 .foot>span>a{
   color: #EF5A21;
+}
+
+
+.bottomTwo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #2C3234;
+  border-radius: 0.7vw;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  color: white;
+}
+
+.textTwo{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2% ;
+
+}
+.TwoTxt{
+  font-size: 0.95vw;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.OneTxt{
+  font-size: 0.8vw;
+}
+
+.HeadTL{
+  font-size: 1vw;
+  color: white;
+  width: 100%;
+  padding: 2% 0 2% 0  ;
+  text-align: left;
+
+}
+.heatt{
+  margin-bottom: 3%;
+}
+
+
+.Sect4{
+  width: 100%;
+  display: flex;
+  padding: 2% 2%;
+  margin: 1.3% 0;
+  background-color: #25292B;
+  justify-content: space-between;
+  border-radius: 0.5vw;
+}
+
+.sect4txt{
+  font-size: 0.8vw;
+
+  color: white;
+}
+
+
+
+.arrw{
+  font-size: 1.3vw;
+  color: gray;
+}
+
+
+.infod{
+  margin-bottom: 6%;
 }
