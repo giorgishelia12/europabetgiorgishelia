@@ -1165,3 +1165,43 @@ text-align: center;
       border-radius: 4vw;
     }
 }
+.tb3TopF{
+  width: 95%;
+  display: flex;
+  padding-top: 3%;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+.finalinf{
+  width: 100%;
+  border-radius: 0.8vw;
+}
+
+.txtTb3top{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bgtx, .smTx{
+  font-size: 0.8vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.smTx{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.bgtx{
+  margin: 2.5% 0 1%;
+}
+
+.secCon{
+  margin: auto;
+  width: 72%;
+}

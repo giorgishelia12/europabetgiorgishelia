@@ -6,8 +6,9 @@ export default function Sect2(props){
             <div className="orleft">
             </div>
             <div className="orRight">
-                <img  src={props.sr} alt="" />
-                <span className="orSpan">{props.tx}</span>
+
+                <img style={{display: !props.sr ? "none" : "block" }}  src={props.sr} alt="" />
+                <span className={`orSpan ${!props.sr ? "propsW" : ""}`}>{props.tx}</span>
             </div>
         </div>
     )

@@ -1,4 +1,3 @@
-import background from "../../assets/main-bg.png"
 
 export default function Tab2Sec2big(){
     return(
