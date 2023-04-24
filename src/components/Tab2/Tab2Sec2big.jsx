@@ -3,7 +3,6 @@ import background from "../../assets/main-bg.png"
 export default function Tab2Sec2big(){
     return(
         <div className="bigleadbn">
-        <img className="littleBck" src={background} alt="" />
         <div className="infoadbig">
             <div className="infbigaddtop">
             <span className="HighR BH">Main Events</span>

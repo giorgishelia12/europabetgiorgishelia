@@ -815,6 +815,7 @@ border-radius: 1vw;
 }
 
 
+
 .middleTextT{
   width: 50%;
   padding-bottom: 1.5%;
@@ -984,7 +985,7 @@ box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
   width: 100%;
   padding: 4% 7%;
   margin: auto;
-  z-index: 1;
+  z-index: 0;
 }
 
 .infoadbig{
@@ -1052,4 +1053,115 @@ box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
 .scft{
   width: 72%;
   margin: auto;
+}
+
+
+.bordR{
+  border-radius: 1vw;
+  margin-bottom: 8%;
+}
+
+.bordR > span {
+  padding: 2.8% 2.8% 0 2.8%;
+  width: 74%;
+text-align: center;
+}
+
+.non{
+  padding: 1% 0 2% 0;
+}
+
+.botrow{
+  background-image: url('./assets/main-bg.png');
+  background-position:center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 31 / 4;
+
+}
+
+.sect2M{
+  margin: 3% auto 2% auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .txtMTu{
+      font-size: 3vw;
+      font-weight: normal;
+    }
+    .mTU{
+      text-align: center;
+    }
+    .middleTextT{
+      width: 67%;
+    }
+    .timediv{
+      width: 63%;
+    }
+    .time{
+      font-size: 2.74vw;
+    }
+    .textupmtd{
+      font-size: 1.6vw;
+    }
+    .textdwnmtd{
+      font-size: 1.6vw;
+    }
+    .butdwnmtd{
+      padding: 1.5% 8%;
+      border-radius: 0.8vw;
+      font-size: 2.8vw;
+    }
+    .topBotDb{
+      text-align: left;
+      font-size: 3.4vw;
+    }
+    .rond{
+      background-color: #1C1D1E;
+      border: none;
+    }
+    .toprow{
+      flex-direction: column;
+    }
+    .littleadbn{
+      width: 100%;
+      margin: 1.3% auto;
+    }
+    .HighR{
+      font-size: 3.85vw;
+    }
+    .baiini{
+      font-size: 2.75vw;
+    }
+    .picot{
+      font-size: 5.3vw;
+    }
+    .aprilstl{
+      font-size: 2.9vw;
+      border-radius: 2vw 2vw 0 2vw;
+      padding: 1% 7%;
+    }
+    .botrow{
+      background-image: url('./assets/main-bg-sm.png');
+      aspect-ratio: 16 / 4;
+    }
+    .infbigaddtop{
+      width: 81%;
+      margin: 2% 0 auto 0;
+    }
+    .inbigeaddbot{
+      margin: 0;
+      width: 85%;
+    }
+    .scft{
+      width: 100%;
+    }
+    .non{
+      width: 75%;
+      margin: 2% auto auto auto;
+      text-align: center;
+    }
+    .bordR{
+      border-radius: 4vw;
+    }
 }
