@@ -43,7 +43,7 @@ export default function Tabmain1(){
             <div className="sect2M">
                 {
                     info2.map((obj, i)=>{
-                        return <Sect2 key={i} sr={obj[0]} tx={obj[1]}/>
+                        return <Sect2 sh={false} key={i} sr={obj[0]} tx={obj[1]}/>
                     })
                 }
             </div>

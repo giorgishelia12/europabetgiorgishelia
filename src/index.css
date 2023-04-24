@@ -1205,3 +1205,51 @@ text-align: center;
   margin: auto;
   width: 72%;
 }
+
+.thrdCon{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Tab3Sec1{
+  width: 31%;
+
+}
+
+.Sect2alt{
+  padding: 4%;
+  margin: 3% auto;
+}
+
+.Sect2alt > .orRight > img{
+  width: 1.2vw;
+}
+
+.propsW{
+  font-size: 0.7vw;
+  font-weight: normal;
+}
+
+.Tab3Sec1{
+  background-color: #25292B;
+  border-radius: 1vw;
+  height: 17.5vw;
+  margin-bottom: 3%;
+}
+
+.Tab3C{
+  padding: 0 2%;
+}
+
+.Tab3Sec1 > .TopH >span{
+  font-size: 0.8vw;
+  font-weight: normal;
+  padding: 4.8%;
+}
+
+.Tab3Sec1 > .TopH >.headl{
+  width: 43%;
+  height: 0.20vw;
+}
