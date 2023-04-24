@@ -26,7 +26,7 @@ export default function Tabmain1(){
             <span className="lhead">ჰოლდემის TOP20 ლიდერბორდი</span> <img src={exampleIcon} alt="" srcset="" />
         </div>
         <div className="mainseccont">
-            <div className="sect1M">
+            <div className="sec t1M">
                 <div className="sect1top">
                     <span>ადგილი</span>
                     <span>ვაუჩერი</span>

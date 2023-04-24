@@ -193,7 +193,7 @@
 }
 
 
-.Tab1{
+.Tab1, .Tab2{
   margin-top: 3%;
   width: 100%;
 }
@@ -796,4 +796,260 @@ border-radius: 1vw;
 
   }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Tab2Sec1{
+  display: flex;
+  width: 100%;
+}
+
+
+.middleTextT{
+  width: 50%;
+  padding-bottom: 1.5%;
+}
+
+.Cardimg{
+  width: 100%;
+}
+
+.imgcdiv{
+  width: 25%;
+  aspect-ratio: 110 / 71;
+  margin: auto auto 0 auto;
+}
+
+.mTD{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textupmtd{
+  font-size: 0.7vw;
+  margin: 2% auto 2% auto;
+}
+
+.textdwnmtd{
+  font-size: 0.67vw;
+  margin: auto auto 5% auto;
+  width: 70%;
+  text-align: center;
+
+}
+
+
+.fixedbT{
+  display: none;
+}
+
+.txtMTu{
+  font-size: 0.75vw;
+  font-weight: bold;
+}
+
+
+.timediv{
+  margin: 5% auto 0 auto;
+  width: 42%;
+  display: flex;
+  border: 0.12vw solid #F05A22;
+  border-radius: 0.5vw;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+-webkit-box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+-moz-box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+}
+
+.time{
+  font-size: 0.74vw;
+  margin: auto auto auto 0;
+}
+
+.clockdi{
+  height: 100%;
+  width: fit-content;
+  padding: 2% 4% 2% 2%;
+  background-color: #F05A22;
+  border-radius: 0.3vw 40% 40% 0.3vw;
+  margin: auto auto auto 0.01%;
+}
+
+.mTU{
+  margin-top: 3%;
+}
+
+.mTD{
+  color: #7D7D7D;
+}
+
+.mTD>div{
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+
+.butdwnmtd{
+  margin: auto;
+  background-color: #F05A22;
+border: none;
+outline: none;
+color: white;
+padding: 1.5% 3%;
+border-radius: 0.3vw;
+font-size: 0.729vw;
+font-weight: bold;
+box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+-webkit-box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+-moz-box-shadow: 0px 0px 15px -4px rgba(240,90,34,0.75);
+}
+
+.upToh{
+  margin-top: 5%;
+}
+
+
+.topBotDb{
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  font-size: 1vw;
+}
+
+
+.rond{
+  margin-top: 5%;
+  border: 0.26vw solid rgb(37, 41, 43);
+  border-radius: 1vw 1vw 1vw 1vw;
+}
+
+.Tab2Sec2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Tab2Sec2{
+  width: 95%;
+  display: flex;
+  margin: auto;
+}
+
+.toprow{
+  width: 100%;
+  margin: auto auto 2% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botrow{
+  width: 100%;
+}
+
+.littleadbn{
+  position: relative;
+  width: 48%;
+  display: flex;
+  aspect-ratio:  395 / 104;
+}
+
+.bigleadbn{
+  position: relative;
+  width: 100%;
+  display: flex;
+  aspect-ratio:  31 / 4;
+}
+
+.littleBck{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.infoadlittle, .infoadbig{
+  position: relative;
+  width: 100%;
+  padding: 4% 7%;
+  margin: auto;
+  z-index: 1;
+}
+
+.infoadbig{
+  padding: 2% 7%;
+}
+
+.HighR{
+  font-weight: bold;
+  font-size: 0.85vw;
+}
+.inflittleaddtop, .inflittleaddbot, .inbigeaddbot, .infbigaddtop{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.infbigaddtop{
+  width: 40%;
+  margin: auto;
+}
+
+.inbigeaddbot{
+  width: 42%;
+  margin: 1% 0 auto 29.8%;
+}
+
+.inflittleaddbot{
+  margin-top: 2%;
+  width: 85%;
+}
+
+.baiini{
+  font-weight: bold;
+  font-size: 0.75vw;
+  margin: auto 0;
+}
+
+.picot{
+  font-weight: bold;
+  font-size: 1.3vw;
+  color: #FFBE00;
+}
+
+
+.aprilstl{
+  font-size: 0.833vw;
+  margin: auto 0;
+  padding: 1.5% 7%;
+  border-radius: 0.8vw 0.8vw 0 0.8vw;
+}
+
+.april{
+  background-color: #B78648;
+}
+
+.august{
+  background-color: #D7C860;
+  color: #094B3D;
+}
+
+.BH{
+  font-size: 1.2vw;
+}
+
+.scft{
+  width: 72%;
+  margin: auto;
 }
