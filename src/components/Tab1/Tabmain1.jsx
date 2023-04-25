@@ -22,7 +22,7 @@ export default function Tabmain1(props){
 
     return (
         <>
-        <div style={{display: props.sh ? "none": "block"}} className="T1S1">
+        <div style={{display: props.sh ? "none": "flex"}} className="T1S1">
             <span  className="lhead">ჰოლდემის TOP20 ლიდერბორდი</span> <img src={exampleIcon} alt="" srcset="" />
         </div>
         <div className="mainseccont">
