@@ -1495,3 +1495,54 @@ padding: 0 2% 2% 2%;
     padding: 3%;
   }
 }
+
+.minsc{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.Tab2minsc{
+  width: 40%;
+  display: flex;
+  background-color: rgb(30, 33, 34);
+  color: white;
+  border: 0.2vw solid rgb(37, 41, 43);
+  border-radius: 2vw;
+  position: relative;
+}
+
+.minscTx{
+  width: 100%;
+margin: auto;
+padding: 3% 0px 3% 6%;
+font-size: 0.833vw;
+}
+
+.pull > img{
+  width: 2.3vw;
+}
+
+.pull{
+  position: absolute;
+  top: -8%;
+  left: 87%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .pull > img{
+    width: 8.5vw;
+  }
+
+  .Tab2minsc{
+    width: 77%;
+border: 0.5vw solid rgb(51, 55, 58);
+border-radius: 4vw;
+  }
+  .minscTx{
+    font-size: 2.833vw;
+  }
+}

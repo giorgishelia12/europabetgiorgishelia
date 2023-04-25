@@ -5,7 +5,7 @@ import travel from "../../assets/travel-icon-sm.png"
 import masterC from "../../assets/cc-mastercard.svg"
 import ticket from '../../assets/ticket-icon-sm.png'
 
-export default function Tabmain1(){
+export default function Tabmain1(props){
     const info1 = [['-', "A კატეგორიის საგზური"],
     ['-', "B კატეგორიის საგზური"],
     ['1 500 ₾', "სპეც. კატეგორიის საგზური"],
@@ -22,8 +22,8 @@ export default function Tabmain1(){
 
     return (
         <>
-        <div className="T1S1">
-            <span className="lhead">ჰოლდემის TOP20 ლიდერბორდი</span> <img src={exampleIcon} alt="" srcset="" />
+        <div style={{display: props.sh ? "none": "block"}} className="T1S1">
+            <span  className="lhead">ჰოლდემის TOP20 ლიდერბორდი</span> <img src={exampleIcon} alt="" srcset="" />
         </div>
         <div className="mainseccont">
             <div className="sec t1M">

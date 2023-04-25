@@ -7,6 +7,7 @@ import bnr1 from "../../assets/Rounded Rectangle 1.png"
 import bnr4 from "../../assets/Rounded Rectangle 1.png"
 import bnr2 from "../../assets/Rounded Rectangle 2.png"
 import bnr3 from "../../assets/Rounded Rectangle 3.png"
+import Tab2minsc from "./Tab2minsc"
 export default function Tab2(){
     const infoSect5 = [[bnr1, "Get 300% Cashback", "retrieve 300% bet amount as real money only here", "rgb(13, 100, 155)"],
     [bnr2, "Get 300% Cashback", "retrieve 300% bet amount as real money only here","rgb(26,23,108)"],
@@ -31,7 +32,10 @@ export default function Tab2(){
                 <span>ᲛᲝᲮᲕᲓᲘ TOP20 ᲚᲘᲓᲔᲠᲑᲝᲠᲓᲨᲘ ᲢᲣᲠᲜᲘᲠᲔᲑᲖᲔ ᲓᲐᲒᲠᲝᲕᲔᲑᲣᲚᲘ ᲥᲣᲚᲔᲑᲘᲗ</span>
             </div>
             <div className="bottomD">
-                <Tabmain1/>
+                <div className="minsc">
+                <Tab2minsc/>
+                </div>
+                <Tabmain1 sh={true}/>
             </div>
             <div className="bottomD rond">
                 <div className="topBotDb">
