@@ -1211,6 +1211,7 @@ text-align: center;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3%;
 }
 
 .Tab3Sec1{
@@ -1252,4 +1253,144 @@ text-align: center;
 .Tab3Sec1 > .TopH >.headl{
   width: 43%;
   height: 0.20vw;
+}
+
+
+
+.Smlcrd{
+  width: 100%;
+  display: flex;
+  padding: 2% 0;
+  border-radius: 0.6vw;
+}
+
+.smlcrdTxtl{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+
+.smlcrdimg{
+  width: 40%;
+}
+
+.cardCont{
+  width: 95%;
+  margin: 0 auto auto auto;
+  display: flex;
+  padding: 1.4% 0 0 0;
+}
+
+.leftSML{
+  width: 50%;
+  border-radius: 10vw;
+padding: 0 0 0 4%;
+}
+
+.rightBG{
+  width: 50%;
+  display: flex;
+flex-direction: column;
+padding: 0 2% 2% 2%;
+}
+
+.topmv{
+  width: fit-content;
+  margin-left: auto;
+
+}
+
+.topmv > img{
+  width: 4.4vw;
+  padding: 0 16% 0 0;
+  margin-left: auto;
+}
+
+.smlcrdBGtx{
+  margin-bottom: 3%;
+}
+
+
+.smlcrdBGtx{
+  font-size: 0.9vw;
+  font-weight: bold;
+}
+
+.smlcrdsmltxt{
+  font-size: 0.8vw;
+}
+
+.shrink{
+  width: 100%;
+  display: flex;
+  background-color: #1E2122;
+  border-radius: 0.6vw;
+
+}
+
+
+.BG{
+  padding: 1% 0;
+}
+
+.shrnkbs{
+  display: flex;
+  flex-direction: column;
+}
+
+.shrBK{
+  display: flex;
+}
+
+.smlcrdHGtxt{
+  width: 84%;
+  padding: 0% 0 5% 6%;
+  font-size: 0.67vw;
+}
+
+
+.ND{
+  padding: 6% 6% 1% 6%;
+}
+
+
+.sm{
+  padding: 2.6% 0;
+}
+
+.mgtp{
+  margin-top: 5%;
+}
+.rb{
+  width: 78%;
+  margin: auto;
+  text-align: center;
+  padding:0 ;
+}
+
+.g{
+  padding: 2% 0;
+}
+
+.only{
+  margin: auto auto auto 0;
+}
+
+.ng{
+  background-color: #25292B;
+  padding: 2%;
+  border-radius: 0.8vw;
+}
+
+.lsm{
+  font-size: 0.75vw;
+}
+
+.getdwn{
+  margin: 0 auto 3% auto;
+}
+
+.getdwnF{
+  margin-bottom: 8%;
 }
