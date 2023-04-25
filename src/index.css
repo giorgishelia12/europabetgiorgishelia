@@ -708,7 +708,7 @@ border-top-right-radius: 0;
     font-size: 2.8vw;
   }
   .orRight > img{
-    width: 10%;
+    width: 8vw;
   }
 
   .orleft{
@@ -739,6 +739,8 @@ border-top-right-radius: 0;
   }
 
   .OneTxt{
+    padding: 0 0 3%;
+    text-align: center;
     font-size: 2.8vw;
   }
 
@@ -851,9 +853,9 @@ border-radius: 1vw;
 }
 
 
-.fixedbT{
+/* .fixedbT{
   display: none;
-}
+} */
 
 .txtMTu{
   font-size: 0.75vw;
@@ -1393,4 +1395,103 @@ padding: 0 2% 2% 2%;
 
 .getdwnF{
   margin-bottom: 8%;
+}
+
+@media only screen and (max-width: 800px) {
+  .finalinf{
+    border-radius: 1.8svw;
+  }
+
+  .phn{
+    background-color: #171718;
+    border-radius: 2vw;
+    border: 0.7vw solid #25292B;
+  }
+  .bgtx, .smTx{
+    font-size: 3vw;
+    font-weight: normal;
+  }
+  .orleft{
+    margin: auto;
+  }
+  .thrdCon{
+    flex-direction: column;
+    padding: 0 2%;
+  }
+  .Tab3Sec1{
+    width: 100%;
+    margin: auto auto 6% auto;
+    height: 84.4vw;
+    background-color: #25292B;
+    border-radius: 3vw;
+  }
+  .Tab3Sec1 > .TopH > span{
+    font-size: 3.8vw;
+
+  }
+  .propsW{
+    font-size: 3.7vw;
+    width: 70%;
+  }
+  .Sect2alt > .orRight > img{
+    width: 7.2vw;
+  }
+  .Sect2alt{
+    padding: 2% 2% 2% 0;
+    border-radius: 2vw;
+    background-color: #1C1D1E;
+  }
+  .secCon{
+    width: 90%;
+  }
+
+  .secCon > .Sect2 > .orRight > span{
+    font-size: 3.7vw;
+    font-weight: bold;
+  }
+  .Tab3Sec1 > .TopH > .headl{
+    width: 34%;
+    height: 1.2vw;
+  }
+  .mgtp > span{
+    text-align: center;
+  }
+  .cardCont{
+    flex-direction: column;
+  }
+  .leftSML{
+    width: 100%;
+    padding: 0;
+  }
+  .topmv >img {
+    width: 19.4vw;
+  }
+  .smlcrdBGtx{
+    font-size: 3.5vw;
+  }
+  .smlcrdsmltxt, .smlcrdHGtxt{
+    font-size: 3.4vw;
+  }
+
+  .sm{
+    padding: 1.6% 2%;
+  }
+  .shrink{
+    border-radius: 3vw;
+  }
+  .rightBG{
+    width: 100%;
+  }
+  .bigS{
+    margin: auto 4% auto 2%;
+  }
+  .only{
+    padding: 2.2% 0;
+  }
+  .lsm{
+    display: none;
+  }
+  .orSpan{
+    padding: 3%;
+  }
 }

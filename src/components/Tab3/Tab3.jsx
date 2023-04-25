@@ -39,7 +39,7 @@ export default function Tab3(){
 
     return(
         <div className="Tab3">
-            <div className="bottomD rond">
+            <div className="bottomD rond phn">
                 <div className="tb3TopF">
                     <img className="finalinf" src={finalinfo} alt="" />
                     <div className="txtTb3top">
